@@ -1,20 +1,41 @@
-Prodigy InfoTech Internship – Web Development Task 02
-A high-precision, Neon-Glassmorphism Stopwatch web application built during my internship at Prodigy InfoTech. This project focuses on JavaScript state management, accurate timing intervals, and modern UI/UX principles.
+# ⏱️ Prodigy InfoTech Internship – Task 02
 
-✨ Key Features
-⏱️ Precision Timing Engine
-Logic vs. Display: Calculated using Date.now() to ensure 100% accuracy, preventing time-drift common with simple counters.
-Monospaced Stability: Uses Share Tech Mono to ensure numerical stability, eliminating "shaking text" during time increments.
-💎 Neon Glassmorphism UIAesthetic: Features a frosted-glass container with backdrop-filter: blur(15px).
-Interactive Hover: Buttons utilize cubic-bezier transitions for a tactile "pop" and neon glow feedback.
-📝 Dynamic Lap TrackingReal-time Logging: Record intervals without interrupting the main timer.
+### **High-Precision Neon-Glassmorphism Stopwatch**
 
-🛠️ Tech Stack
-Markup                  HTML5 (Semantic)
-Styling                 CSS3 (Glassmorphism, Flexbox, Keyframes)
-Logic                   JavaScript ES6
+A sophisticated, high-performance Stopwatch web application developed during my Web Development Internship at **Prodigy InfoTech**. This project emphasizes JavaScript state management, precise time-interval calculation, and modern UI/UX principles.
 
-📂 Project Structure
+---
+
+## ✨ Key Features
+
+### 🎯 Precision Timing Engine
+* **Logic vs. Display:** Time is calculated using `Date.now()` rather than simple incrementing variables. This ensures 100% accuracy by preventing the "time-drift" often caused by browser backgrounding.
+* **Monospaced Stability:** Integrated **Share Tech Mono** typography to ensure numerical stability, eliminating the common "jittery text" effect during high-speed increments.
+
+### 💎 Neon Glassmorphism UI
+* **Aesthetic:** A premium "frosted glass" interface achieved through `backdrop-filter: blur(15px)` and semi-transparent depth layers.
+* **Tactile Feedback:** Buttons utilize custom `cubic-bezier` transitions, creating a physical "pop" and neon glow effect upon interaction.
+
+### 📝 Dynamic Lap Tracking
+* **Real-time Logging:** Record precise intervals without interrupting the main clock.
+* **Smart UI:** Uses JavaScript's `prepend()` method to ensure the latest lap record always appears at the top of the list with a smooth entrance animation.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Markup** | HTML5 (Semantic & Accessible) |
+| **Styling** | CSS3 (Glassmorphism, Flexbox, Keyframes) |
+| **Logic** | JavaScript ES6 (Intervals, State Management) |
+| **Typography** | Google Fonts (Montserrat & Share Tech Mono) |
+
+---
+
+## 📂 Project Structure
+
+```text
 ├── index.html       # Application structure & UI components
-├── style.css        # Neon-Glassmorphism & animations
-└── script.js       # Timing logic & lap state management
+├── style.css        # Neon-Glassmorphism styling & animations
+└── script.js        # Core timing logic & lap state management
