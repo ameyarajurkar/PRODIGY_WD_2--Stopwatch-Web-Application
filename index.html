@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodigy Stopwatch Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="stopwatch-card">
+        <h1 class="main-title">STOPWATCH</h1>
+        
+        <div class="display-box">
+            <span id="display">00:00:00</span>
+        </div>
+
+        <div class="button-group">
+            <button onclick="start()" id="startBtn" class="btn btn-start">START</button>
+            <button onclick="lap()" id="lapBtn" class="btn btn-lap">LAP</button>
+            <button onclick="pause()" id="pauseBtn" class="btn btn-pause">PAUSE</button>
+            <button onclick="reset()" class="btn btn-reset">RESET</button>
+        </div>
+
+        <div class="laps-box">
+            <ul id="lapsList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
